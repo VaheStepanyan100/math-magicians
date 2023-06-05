@@ -100,7 +100,7 @@ To run tests, run the following command:
 Example command:
 
 ```sh
-  - `npx stylelint "#src/**/*.{css,scss}"`
+  - `npx stylelint "**/*.{css,scss}"`
   - `npx eslint .`
   - `npm test`
 
