@@ -1,11 +1,8 @@
 import './App.css';
+import Calculator from './components/Calculator';
 
 function App() {
-  return (
-    <div>
-      <h1>React App</h1>
-    </div>
-  );
+  return <Calculator />;
 }
 
 export default App;
