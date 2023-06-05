@@ -16,22 +16,22 @@ body {
   grid-template-rows: minmax(7rem, auto) repeat(5, 4rem);
 }
 
+.calculator-grid > button {
+  cursor: pointer;
+  font-size: 2rem;
+  background-color: lightgray;
+  border: 1px solid rgb(128, 128, 128, 0.02);
+  outline: none;
+}
+
 .calculator-grid > button:nth-child(4n + 1),
 .calculator-grid > button:nth-child(20) {
   background-color: orange;
 }
 
-.calculator-grid > button {
-  cursor: pointer;
-  font-size: 2rem;
-  background-color: lightgray;
-  border: 1px solid rgb(128, 128, 128, .2);
-  outline: none;
-}
-
 .calculator-grid > button:hover,
 .calculator-grid > button:focus {
-  background-color: rgb(128, 128, 128, .2);
+  background-color: rgb(128, 128, 128, 0.2);
 }
 
 .span-two {
@@ -40,13 +40,13 @@ body {
 
 .output {
   grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, .75);
+  background-color: rgba(0, 0, 0, 0.75);
   word-wrap: break-word;
   word-break: break-all;
 }
 
 .output .previous-operand {
-  color: rgba(255, 255, 255, .75);
+  color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
   padding: 1rem;
   text-align: right;
