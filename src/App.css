@@ -8,6 +8,55 @@ body {
   margin: 0;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: aqua;
+}
+
+.navbar h1 {
+  color: orange;
+  font-size: xx-large;
+  padding: 40px;
+  margin: 0;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.navigation a {
+  font-size: large;
+  color: darkorange;
+  text-decoration: none;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+
+.home-page h2 {
+  color: orange;
+}
+
+.home-page p {
+  font-size: large;
+  color: darkorange;
+}
+
+.calculate-page h3 {
+  color: orange;
+  text-align: center;
+}
+
 .calculator-grid {
   display: grid;
   justify-content: center;
@@ -60,8 +109,10 @@ body {
 }
 
 .quotes {
+  color: orange;
   font-size: 1.5rem;
   text-align: center;
   margin-top: 2rem;
   padding: 0 1rem;
+  margin-top: 10rem;
 }
