@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
 import CalcButtons from './CalcButtons';
-import FetchQuote from './FetchQuote';
 
 export default function Calculator() {
   const [calculatorDataObj, setCalculatorDataObj] = useState({
@@ -26,7 +25,6 @@ export default function Calculator() {
         </div>
         <CalcButtons handleButtonClick={handleClick} />
       </div>
-      <FetchQuote />
     </>
   );
 }

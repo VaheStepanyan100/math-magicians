@@ -38,9 +38,9 @@ const FetchQuote = () => {
   if (loading) return <p>Loading...</p>;
 
   return (
-    <div className="quotes">
+    <>
       {data.map((item) => (
-        <p key={1}>
+        <div className="quotes" key={1}>
           <p>{item.quote}</p>
           {' '}
           <p>
@@ -48,9 +48,9 @@ const FetchQuote = () => {
             {' '}
             {item.author}
           </p>
-        </p>
+        </div>
       ))}
-    </div>
+    </>
   );
 };
 
