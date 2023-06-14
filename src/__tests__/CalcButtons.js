@@ -6,7 +6,7 @@ test('renders operator buttons correctly', () => {
   const { container, getByText } = render(
     <CalcButtons handleButtonClick={handleButtonClick} />,
   );
-  const button = getByText("AC");
+  const button = getByText('AC');
 
   fireEvent.click(button);
   expect(handleButtonClick).toHaveBeenCalledTimes(1);
