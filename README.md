@@ -50,6 +50,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://VaheStepanyan100.github.io/math-magicians/)
+- [Render Live Demo link](https://math-magicians-g4ej.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
