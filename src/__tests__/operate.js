@@ -17,4 +17,9 @@ describe('Operate function test', () => {
     const result = operate('3', '4', '÷');
     expect(result).toMatchSnapshot();
   });
+
+  test("return Can't divide by 0.", () => {
+    const result = operate('60', '0', '÷');
+    expect(result).toEqual("Can't divide by 0.");
+  });
 });
