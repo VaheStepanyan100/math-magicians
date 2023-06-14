@@ -6,4 +6,6 @@ exports[`Operate function test Performs division correctly  1`] = `"0.75"`;
 
 exports[`Operate function test Performs multiplication correctly  1`] = `"12"`;
 
+exports[`Operate function test Performs multiplication correctly : 12 1`] = `"12"`;
+
 exports[`Operate function test Performs substraction correctly  1`] = `"-1"`;
